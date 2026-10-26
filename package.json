@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:smoke": "cypress run --browser chrome --headless --spec \"cypress/e2e/squerist/smoke.cy.ts\""
   },
   "keywords": [],
   "author": "",
