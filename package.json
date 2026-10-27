@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "test:smoke": "cypress run --browser chrome --headless --spec \"cypress/e2e/squerist/smoke.cy.ts\""
+    "test:smoke": "cypress run --browser chrome --headless --spec \"cypress/e2e/squerist/smoke.cy.ts\"",
+    "test:smoke:ff": "cypress run --browser firefox --headless --spec \"cypress/e2e/squerist/smoke.cy.ts\""
   },
   "keywords": [],
   "author": "",
